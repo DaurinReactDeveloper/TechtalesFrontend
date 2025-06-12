@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.section-informationauth {
+  background-color: #151f41;
+  background-image: url("/img/img-fondos.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-informationauth {
+  width: 65%;
+  border-radius: 3vw;
+  box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.062);
+}
+
+.img-informationauth:hover {
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+.article-img-informationauth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6vw;
+}
+
+.article-information-informationauth {
+  font-family: "JetBrains";
+  color: white;
+}
+
+.article-information-informationauth > h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5vw;
+}
+
+.article-information-informationauth > hr {
+  opacity: 1;
+  margin: 1vw 7vw;
+}
+
+.article-information-informationauth > p {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2vw;
+}
+
+.article-information-informationauth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+
+.article-information-informationauth > div > button {
+  all: unset;
+  background-color: #394c8a;
+  padding: 1.5vw 5vw;
+  border-radius: 5vw;
+}
+
+.article-information-informationauth > div > button:hover {
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+@media (min-width: 768px) {
+  .article-information-informationauth > div > button {
+    padding: 1vw 5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-informationauth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .article-img-informationauth {
+    padding-top: 0vw;
+    width: max-content;
+  }
+
+  .article-information-informationauth {
+    width: 60%;
+  }
+
+  .img-informationauth {
+    width: 16vw;
+    height: 16vw;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.062);
+  }
+
+  .article-information-informationauth > hr {
+    margin: 0vw 3vw;
+  }
+
+  .article-information-informationauth > p {
+    padding-top: 0.6vw;
+  }
+  
+  .article-information-informationauth > div > button {
+    padding: 0.4vw 2vw;
+    border-radius: 5vw;
+  }
+}

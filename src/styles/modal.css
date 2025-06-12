@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "JetBrainBold";
+  src: url("/src//assets/font/JetBrainsMono-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "JetBrain";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.modal-generic {
+  text-align: justify;
+}
+
+.modal-header-generic,
+.div-buttons-modal {
+  background-color: #151f41;
+}
+
+.modal-title-h5{
+  text-transform: uppercase;
+  font-family: "JetBrainBold";
+  color: white;
+}
+
+.p-content-modal-body {
+  font-family: "JetBrain";
+  color: #151f41;
+  margin-bottom: 0vw;
+}
+
+.hr-modal-body-generic {
+  opacity: 1;
+  color: #151f41;
+}
+
+.h6-modal-body-generic {
+  color: black;
+  text-decoration: underline;
+}
+
+.div-comments-modal {
+  max-height: 33vw;
+  overflow: auto;
+}
+
+.div-map-generic-modal {
+  background-color: #151f41;
+  padding: 2.5vw 2vw;
+  border: 0.1vw solid rgba(0, 0, 0, 0.233);
+  border-radius: 1vw;
+  margin-bottom: 2vw;
+  line-height: 6.4vw;
+}
+
+.div-map-generic-modal > p,
+.div-map-generic-modal > small {
+  margin-bottom: 0vw;
+}
+
+.textarea-generic-modal {
+  resize: none;
+}
+
+.div-buttons-modal {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.button-generic-modal {
+  all: unset;
+  background-color: #394c8a;
+  color: white;
+  padding: 1.6vw 3vw;
+  border-radius: 1vw;
+}
+
+.button-close-modal {
+  all: unset;
+  background-color: #f44336;
+  color: white;
+  padding: 1.6vw 3vw;
+  border-radius: 1vw;
+}
+
+.button-close-modal:hover {
+  background-color: #f44336c7;
+  transform: scale(1.02);
+  transition: transform 1s, background-color 1s;
+}
+
+.button-generic-modal:hover {
+  background-color: #394c8ac7;
+  transform: scale(1.02);
+  transition: transform 1s, background-color 1s;
+}
+
+.alert-div-message-warning{
+  background-color: #FFF3CD;
+  color: #3a2d04;
+}
+
+.alert-div-message-error{
+  background-color:#F8D7DA;
+  color: #754044;
+}
+
+.alert-div-message-success{
+  background-color:#D4EDDA;
+  color: #155724;
+}
+
+.alert-div-message-warning,.alert-div-message-error,.alert-div-message-success{
+  text-align: justify;
+  padding: 2vw;
+  margin-top: 2vw;
+  border-radius: 1vw;
+}
+
+.div-button-delete{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.button-delete-generic{
+  all: unset;
+  font-size: 4vw;
+  color: #f44336;
+}
+
+@media (min-width: 768px) {
+  .div-generic-modal {
+    max-height: 22vw;
+    overflow: auto;
+  }
+
+  .div-map-generic-modal {
+    padding: 1vw 1.5vw;
+    border-radius: 0.7vw;
+    margin-bottom: 2vw;
+    line-height: 4.5vw;
+  }
+
+  .button-generic-modal {
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+  }
+
+  .button-close-modal {
+    padding: 1vw 2vw;
+  }
+
+  .button-delete-generic{
+    font-size: 2.5vw;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  .div-generic-modal {
+    max-height: 15vw;
+    overflow: auto;
+  }
+
+  .div-map-generic-modal {
+    padding: 0.1vw 1.5vw;
+    padding-bottom: 1vw;
+    margin-bottom: 2vw;
+    line-height: 3vw;
+  }
+
+  .button-generic-modal,
+  .button-close-modal {
+    padding: 0.7vw 1vw;
+    border-radius: 0.5vw;
+  }
+
+  .div-buttons-modal {
+    gap: 1vw;
+  }
+
+  .alert-div-message-warning,.alert-div-message-error,.alert-div-message-success{
+    padding: 1vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+  }
+
+  .button-delete-generic{
+    font-size: 1.5vw;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .div-generic-modal {
+    max-height: 9vw;
+  }
+
+  .small-generic-modal {
+    padding-top: 2vw;
+  }
+
+  .div-map-generic-modal {
+    padding: 0.1vw 0.7vw;
+    padding-bottom: 1vw;
+    margin-bottom: 0.6vw;
+    line-height: 1.8vw;
+    border-radius: 0.2vw;
+  }
+
+  .button-generic-modal,
+  .button-close-modal {
+    padding: 0.4vw 0.8vw;
+    border-radius: 0.2vw;
+  }
+
+  .alert-div-message-warning,.alert-div-message-error,.alert-div-message-success{
+    padding: 0.7vw;
+    margin-top: 0.5vw;
+    border-radius: 0.2vw;
+  }
+
+  
+  .button-delete-generic{
+    font-size: 1.3vw;
+  }
+}

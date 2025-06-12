@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "JetBrainsBold";
+  src: url("/src//assets/font/JetBrainsMono-ExtraBold.ttf");
+}
+
+.section-cardstories {
+  background-color: #151f41;
+  margin: 3vw;
+  padding: 5vw;
+  margin-bottom: 5vw;
+  color: white;
+  font-family: "JetBrains";
+  border-radius: 1vw;
+  box-shadow: 0vw 1vw 0.01vw #151f4105;
+}
+
+.section-cardstories:hover{
+  transform: scale(1.01);
+  transition: transform 1s;
+}
+
+.div-img-cardstories,
+.div-inf-cardstories {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 2.5vw;
+}
+
+.div-img-cardstories {
+  padding-bottom: 5vw;
+}
+
+.div-img-cardstories > h3 {
+  margin-bottom: 0vw;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.img-user-cardstories {
+  width: 10%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.div-date-cardstories {
+  display: none;
+}
+
+.div-title-content-cardstories {
+  text-align: justify;
+  line-height: 10vw;
+}
+
+.div-title-content-cardstories > h5 {
+  font-family: "JetBrainsBold";
+  font-size: 4.3vw;
+}
+
+.div-title-content-cardstories > p {
+  margin-bottom: 0vw;
+}
+
+
+.div-icon-actions-cardstories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-icon-union-cardstories {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+}
+
+.icon-cardstories {
+  all: unset;
+  font-size: 5vw;
+}
+
+.article-like-dislike-cardstories {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5vw;
+}
+
+.div-like-cardstories,
+.div-dislike-cardstories {
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.div-like-cardstories > p,
+.div-dislike-cardstories > p {
+  margin-bottom: 0vw;
+}
+
+.icon-cardstories:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .section-cardstories {
+    margin: 5vw;
+    padding: 1.5vw;
+    box-shadow: 0vw 0.2vw 0.3vw rgba(0, 0, 0, 0.144);
+    border-radius: 0.5vw;
+  }
+
+  .div-img-cardstories,
+  .div-inf-cardstories {
+    gap: 1.4vw;
+  }
+
+  .div-img-cardstories {
+    padding-bottom: 1.5vw;
+    width: 84%;
+  }
+
+  .img-user-cardstories {
+    width: 6%;
+  }
+
+  .div-date-cardstories {
+    display: contents;
+  }
+
+  .div-title-content-cardstories {
+    text-align: justify;
+    line-height: 5vw;
+  }
+
+  .div-title-content-cardstories > h5 {
+    padding-top: 1vw;
+    font-size: 2.3vw;
+  }
+
+  .div-icon-union-cardstories {
+    gap: 5vw;
+  }
+
+  .icon-cardstories {
+    font-size: 3vw;
+  }
+
+  .article-like-dislike-cardstories {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5vw;
+  }
+
+  .div-like-cardstories,
+  .div-dislike-cardstories {
+    font-size: 2.5vw;
+    gap: 0.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-cardstories {
+    margin: 4vw 15vw;
+  }
+
+  .div-img-cardstories,
+  .div-inf-cardstories {
+    gap: 1vw;
+  }
+
+  .div-img-cardstories {
+    padding-bottom: 0vw;
+    width: 87%;
+  }
+
+  .img-user-cardstories {
+    width: 6%;
+  }
+
+  .div-title-content-cardstories {
+    line-height: 3vw;
+  }
+
+  .div-title-content-cardstories > h5 {
+    font-size: 1.5vw;
+  }
+
+  .div-icon-union-cardstories {
+    gap: 3vw;
+  }
+
+  .icon-cardstories {
+    font-size: 2vw;
+  }
+
+  .article-like-dislike-cardstories {
+    gap: 2vw;
+  }
+
+  .div-like-cardstories,
+  .div-dislike-cardstories {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  
+  .section-cardstories {
+    margin: 2vw 20vw;
+  }
+
+  .div-img-cardstories,
+  .div-inf-cardstories {
+    gap: 0.5vw;
+  }
+
+  .div-title-content-cardstories {
+    line-height: 2.3vw;
+  }
+
+  .div-img-cardstories {
+    width: 89%;
+  }
+
+
+  .div-title-content-cardstories > h5 {
+    font-size: 1vw;
+  }
+
+  .icon-cardstories {
+    font-size: 1.3vw;
+  }
+
+  .div-icon-union-cardstories {
+    gap: 1.8vw;
+  }
+
+  .article-like-dislike-cardstories {
+    gap: 1vw;
+  }
+
+  .div-like-cardstories,
+  .div-dislike-cardstories {
+    font-size: 1vw;
+  }
+}

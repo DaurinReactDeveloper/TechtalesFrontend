@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.pagination {
+  margin-bottom: 0vw;
+  color: "JetBrains";
+}
+
+.page-link {
+  color: #151f41;
+  border-color: #151f411c;
+}
+
+.page-item.active .page-link {
+  background-color: #151f41;
+  border-color: #151f41;
+}
+
+.page-link:hover {
+  background-color: #151f41;
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #151f419c;
+}

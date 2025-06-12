@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.row-challeges {
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.article-basicos-challenges {
+  text-align: justify;
+  padding-top: 7vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 0vw;
+  font-family: "JetBrains";
+}
+
+.h2-basicos-challeges {
+  margin-bottom: 0vw;
+}
+
+.hr-basicos-challeges {
+  opacity: 1;
+  margin-top: 0vw;
+  border: 0.5vw solid #151f41;
+}
+
+@media (min-width: 768px) {
+  .hr-basicos-challeges {
+    border: 0.1vw solid #151f41;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-basicos-challenges {
+    padding-top: 3vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}

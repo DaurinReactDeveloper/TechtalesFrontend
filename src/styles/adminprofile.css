@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.article-table-admin {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.article-table-admin > div {
+  max-height: 70vw;
+  overflow: auto;
+}
+
+.table-admin {
+  color: #151f41;
+  border-collapse: collapse;
+  font-family: "JetBrains";
+}
+
+.tr-table-admin th {
+  background-color: #151f41;
+  color: white;
+  text-align: center;
+  padding: 3vw;
+  white-space: nowrap;
+  border: 0.1vw solid black;
+  font-weight: normal;
+}
+
+.tr-table-information > td {
+  text-align: center;
+  border: 0.1vw solid black;
+}
+
+.tr-table-information:nth-child(odd) {
+  background-color: #394c8af5;
+  color: white;
+}
+
+.th-table-admin {
+  background-color: #151f41;
+}
+
+.button-delete-table {
+  all: unset;
+  color: black;
+  font-size: 6vw;
+}
+
+.button-delete-table:hover {
+  transform: scale(1.03);
+}
+
+.article--button-new-user-adminprofile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2vw;
+  padding-top: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.article--button-new-user-adminprofile > button {
+  all: unset;
+  font-family: "JetBrains";
+  background-color: #151f41;
+  color: white;
+  padding: 1vw 5vw;
+  border-radius: 5vw;
+}
+
+.article--button-new-user-adminprofile > button:hover {
+  background-color: #394c8af5;
+  transform: scale(1.03);
+  transition: background-color 1s, transform 1s;
+}
+
+.p-message-admin-succes,
+.p-message-admin-error {
+  text-align: center;
+  font-family: "JetBrains";
+}
+
+.p-message-admin-succes {
+  color: #151f41;
+}
+
+.p-message-admin-error {
+  color: brown;
+}
+
+@media (min-width: 768px) {
+  .article-table-admin {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .article-table-admin > div {
+    max-height: 36.5vw;
+  }
+
+  .tr-table-admin th {
+    padding: 2vw;
+  }
+
+  .button-delete-table {
+    font-size: 3vw;
+  }
+
+  .article--button-new-user-adminprofile {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .article--button-new-user-adminprofile > button {
+    width: max-content;
+    padding: 1vw 2.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-table-admin > div {
+    max-height: 36.5vw;
+  }
+
+  .article-table-admin {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .tr-table-admin th {
+    padding: 1vw;
+  }
+
+  .button-delete-table {
+    font-size: 1.4vw;
+  }
+
+  .article--button-new-user-adminprofile {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .article--button-new-user-adminprofile > button {
+    width: max-content;
+    padding: 0.5vw 2.5vw;
+  }
+}
+
+@media (min-width: 1444px) {
+  .article-table-admin > div {
+    max-height: 20vw;
+  }
+
+  .article--button-new-user-adminprofile > button {
+    padding: 0.5vw 2vw;
+  }
+}

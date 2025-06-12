@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.navbar-contenedor {
+  background-color: #151f41;
+  font-family: "JetBrains";
+  font-weight: 200;
+  box-shadow: 0vw 1vw 0.6vw rgba(0, 0, 0, 0.144);
+}
+
+.img-logo {
+  width: 24%;
+}
+
+.div-logo-navbar {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  width: 50%;
+}
+
+.navbar-text-logo {
+  border-left: 0.6vw solid white;
+  padding-left: 3vw;
+}
+
+.navbar-icon-admin {
+  font-size: 6vw;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: unset;
+  color: white;
+}
+
+.link-navbar:hover {
+  color: rgba(0, 0, 0, 0.247);
+}
+
+.p-user-navbar {
+  background-color: #394c8a;
+  margin: 0vw;
+  padding: 1vw;
+}
+
+@media (min-width: 768px) {
+  .navbar-contenedor {
+    box-shadow: 0vw 0.4vw 0.4vw rgba(0, 0, 0, 0.144);
+  }
+
+  .img-logo {
+    width: 10%;
+  }
+
+  .navbar-text-logo {
+    border-left: 0.2vw solid white;
+    padding-left: 2vw;
+  }
+
+  .navbar-icon-admin {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-contenedor {
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.267);
+  }
+
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .img-logo {
+    width: 5%;
+  }
+
+  .div-logo-navbar {
+    gap: 0.7vw;
+    width: 50%;
+  }
+
+  .navbar-text-logo {
+    border-left: 0.1vw solid white;
+    padding-left: 0.7vw;
+  }
+
+  .navbar-icon-admin {
+    font-size: 2vw;
+  }
+
+  .p-user-navbar {
+    padding: 0.2vw 1.5vw;
+    border-radius: 1vw;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .navbar-icon-admin {
+    font-size: 1.3vw;
+  }
+}

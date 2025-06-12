@@ -1,0 +1,439 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "JetBrainsBold";
+  src: url("/src//assets/font/JetBrainsMono-ExtraBold.ttf");
+}
+
+.row-auth-layout {
+  align-items: center;
+  justify-content: center;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.article-img-auth-layout {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vw;
+}
+
+.article-img-auth-layout > img {
+  width: 70%;
+}
+
+.h1-auth-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vw;
+  font-family: "JetBrains";
+}
+
+.hr-auth-layout {
+  opacity: 1;
+  margin: 0vw;
+  width: 80%;
+  border: 0.1vw solid #151f41;
+}
+
+.div-form-h1-auth-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-text-form-auth-layout {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 4vw;
+  line-height: 7.5vw;
+  text-align: justify;
+  font-family: "JetBrains";
+}
+
+.label-correo-auth-layout,
+.label-password-auth-layout {
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
+.p-label-correo-auth-layout,
+.p-label-password-auth-layout {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-family: "JetBrainsBold";
+  margin: 0vw;
+}
+
+.icon-password-auth-layout,
+.icon-correo-auth-layout {
+  font-size: 6vw;
+}
+
+.label-correo-auth-layout > input,
+.label-password-auth-layout > input {
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #151f41;
+  color: white;
+  padding: 1.5vw;
+  font-family: "JetBrains";
+  width: 90vw;
+}
+
+.label-correo-auth-layout > input:focus,
+.label-password-auth-layout > input:focus {
+  border: 2px solid #151f41;
+  background-color: #394c8a;
+}
+
+.div-link-auth-layout {
+  display: flex;
+  align-items: center;
+  gap: 52vw;
+  padding-left: 0vw;
+}
+
+.div-link-auth-layout > button {
+  all: inherit;
+  padding-left: 3vw;
+}
+
+.div-link-auth-layout > a {
+  padding-left: 2vw;
+  color: #151f41;
+  font-family: "JetBrains";
+  text-decoration: none;
+}
+
+.div-link-auth-layout > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.div-link-auth-layout > a::after {
+  content: "";
+  position: absolute;
+  left: 1vw;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #394c8a;
+  transition: width 0.3s ease;
+}
+
+.div-link-auth-layout > a:hover {
+  color: #394c8a;
+}
+
+.div-link-auth-layout > a:hover::after {
+  width: 100%;
+}
+
+.logo-google-auth-layout {
+  cursor: pointer;
+  background-color: #151f41;
+  color: white;
+  padding: 1.4vw;
+  font-size: 7vw;
+  border: none;
+  border-radius: 0.5vw;
+}
+
+.logo-google-auth-layout:hover {
+  background-color: #394c8a;
+  transition: background-color 1s;
+}
+
+.div-button-auth-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4vw;
+}
+
+.div-button-auth-layout {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+.div-button-auth-layout > button {
+  all: unset;
+  background-color: #151f41;
+  color: white;
+  padding: 1vw 10vw;
+  border-radius: 5vw;
+  font-family: "JetBrains";
+  box-shadow: 0.1vw 0.5vw 0.1vw rgba(0, 0, 0, 0.055);
+}
+
+.div-button-auth-layout > button:hover {
+  background-color: #394c8a;
+  transform: scale(1.1);
+  transition: background-color 1s, transform 1s;
+}
+
+.success-message-auth-layout {
+  color: green;
+  text-align: center;
+  font-family: "JetBrains";
+  padding-top: 8vw;
+  margin-bottom: 0vw;
+}
+
+.error-message-auth-layout {
+  color: brown;
+  text-align: justify;
+  font-family: "JetBrains";
+  padding-left: 0.2vw;
+  padding-right: 7.5vw;
+  font-size: 3.6vw;
+  padding-top: 8vw;
+  margin-bottom: 0vw;
+}
+
+.error-message-auth-layout-result{
+  color: brown;
+  text-align: center;
+  font-family: "JetBrains";
+  padding-top: 8vw;
+  margin-bottom: 0vw;
+padding-left: 4vw;
+padding-right: 4vw;
+}
+
+@media (min-width: 768px) {
+  .article-img-auth-layout > img {
+    width: 65%;
+  }
+
+  .hr-auth-layout {
+    width: 55%;
+  }
+
+  .p-text-form-auth-layout {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    line-height: 6vw;
+    font-size: 2.3vw;
+  }
+
+  .label-correo-auth-layout,
+  .label-password-auth-layout {
+    padding-left: 10vw;
+    padding-bottom: 3vw;
+  }
+
+  .label-correo-auth-layout > input,
+  .label-password-auth-layout > input {
+    padding: 1.4vw;
+    width: 82vw;
+  }
+
+  .div-link-auth-layout {
+    gap: 58vw;
+    padding-left: 0vw;
+  }
+
+  .div-link-auth-layout > a {
+    font-size: 2.4vw;
+  }
+
+  .div-link-auth-layout > button {
+    padding-left: 10vw;
+  }
+
+  .logo-google-auth-layout {
+    font-size: 5vw;
+  }
+
+  .logo-google-auth-layout:hover {
+    transition: background-color 1s;
+  }
+
+  .div-button-auth-layout {
+    padding-top: 2vw;
+  }
+
+  .div-button-auth-layout {
+    padding-top: 2.5vw;
+    padding-bottom: 6vw;
+  }
+
+  .div-button-auth-layout > button {
+    padding: 1vw 6.8vw;
+  }
+
+  .icon-password-auth-layout,
+  .icon-correo-auth-layout {
+    font-size: 3.5vw;
+  }
+
+  .error-message-auth-layout {
+    font-size: 2.2vw;
+    margin-bottom: 0vw;
+  }
+
+
+  .success-message-auth-layout,.error-message-auth-layout,  .error-message-auth-layout-result {
+    padding-top: 1vw;
+  }
+
+
+  .error-message-auth-layout-result{
+  padding-left: 6vw;
+  padding-right: 6vw;
+  }
+  
+
+}
+
+@media (min-width: 1024px) {
+  .row-auth-layout {
+    background-color: #151f41;
+    gap: 4vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .h1-auth-layout {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+  }
+
+  .article-text-auth-layout {
+    background-color: white;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    padding: 0.1vw;
+    box-shadow: 0vw 0.1vw 0.1vw rgba(0, 0, 0, 0.322);
+  }
+
+  .article-img-auth-layout {
+    padding: 0vw;
+  }
+
+  .article-img-auth-layout > img {
+    width: 100%;
+  }
+
+  .hr-auth-layout {
+    width: 100%;
+  }
+
+  .p-text-form-auth-layout {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    margin-bottom: 0.5vw;
+    line-height: 2.5vw;
+    font-size: 1vw;
+  }
+
+  .label-correo-auth-layout,
+  .label-password-auth-layout {
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+  }
+
+  .label-correo-auth-layout > input,
+  .label-password-auth-layout > input {
+    padding: 0.3vw;
+    width: 29.7vw;
+    border-radius: 0.2vw;
+    font-size: 1vw;
+  }
+
+  .p-label-correo-auth-layout,
+  .p-label-password-auth-layout {
+    gap: 0.2vw;
+    font-size: 1.2vw;
+  }
+
+  .div-link-auth-layout {
+    gap: 21vw;
+    padding-left: 2vw;
+  }
+
+  .div-link-auth-layout > a {
+    padding-left: 0vw;
+    font-size: 1vw;
+  }
+
+  .div-link-auth-layout > button {
+    padding-left: 0vw;
+  }
+
+  .logo-google-auth-layout {
+    padding: 0.3vw;
+    font-size: 1.7vw;
+    border-radius: 0.2vw;
+  }
+
+  .div-button-auth-layout {
+    padding-top: 1vw;
+  }
+
+  .div-button-auth-layout {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .div-button-auth-layout > button {
+    padding: 0.3vw 3vw;
+  }
+
+  .icon-password-auth-layout,
+  .icon-correo-auth-layout {
+    font-size: 1.5vw;
+  }
+
+  .error-message-auth-layout {
+    font-size: 1.1vw;
+    padding-right: 2vw;
+  }
+
+  .div-link-auth-layout > a::after {
+    left: 0vw;
+  }
+
+  .error-message-auth-layout-result{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    }
+
+}
+
+@media (min-width: 1440px) {
+  .p-label-correo-auth-layout,
+  .p-label-password-auth-layout {
+    gap: 0.2vw;
+    font-size: 1vw;
+  }
+
+  .div-button-auth-layout > button {
+    box-shadow: 0vw 0.1vw 0.02vw rgba(0, 0, 0, 0.164);
+  }
+
+  .error-message-auth-layout {
+    padding-left: 0.1vw;
+    font-size: 0.9vw;
+  }
+
+
+  .error-message-auth-layout-result{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    }
+    
+
+}

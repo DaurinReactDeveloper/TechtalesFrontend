@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "JetBrainsBold";
+  src: url("/src//assets/font/JetBrainsMono-ExtraBold.ttf");
+}
+
+.article-buttons-userprofile {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 3vw;
+  padding-top: 5vw;
+  gap: 1vw;
+  font-family: "JetBrains";
+}
+
+.buttons-userprofile {
+  all: unset;
+  background-color: #151f41;
+  color: white;
+  padding: 1vw 2.5vw;
+  border-radius: 5vw;
+}
+
+.buttons-userprofile:hover {
+  background-color: #394c8a;
+  transition: background-color 1s;
+}
+
+.h2-userprofile {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "JetBrainsBold";
+  color: #151f41;
+  padding-top: 7vw;
+}
+
+.h2-userprofile > span {
+  text-decoration: underline;
+  color: #394c8a;
+}
+
+.p-userprofile,
+.p-info-userprofile {
+  font-family: "JetBrains";
+  text-align: center;
+}
+
+.p-info-userprofile {
+  padding-top: 4vw;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+}
+
+@media (min-width: 768px) {
+  .article-buttons-userprofile {
+    padding-right: 5vw;
+  }
+
+  .p-info-userprofile {
+    padding-top: 5vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-buttons-userprofile {
+    padding-top: 3vw;
+    padding-right: 15vw;
+  }
+
+  .buttons-userprofile {
+    padding: 0.5vw 2vw;
+  }
+
+  .h2-userprofile {
+    padding-top: 5vw;
+  }
+
+  .p-info-userprofile {
+    padding-top: 2vw;
+  }
+}
+
+@media (min-width: 1444px) {
+  .buttons-userprofile {
+    padding: 0.2vw 2vw;
+  }
+
+  .article-buttons-userprofile {
+    padding-right: 20vw;
+  }
+}

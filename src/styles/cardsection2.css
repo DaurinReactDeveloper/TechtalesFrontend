@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.div-card-historias-section-2-inicio,
+.card-header-historias-section-2-inicio,
+.card-title-historias-section-2-inicio,
+.card-text-historias-section-2-inicio {
+  font-size: 2.9vw;
+  font-family: "JetBrains";
+}
+
+.div-card-section-2-inicio {
+  padding: 0vw 9vw;
+}
+
+.card-header-historias-section-2-inicio {
+  background-color: white;
+  color: #151f41;
+}
+
+.p-historia-section-2-inicio {
+  margin-bottom: 0vw;
+  padding-bottom: 1vw;
+}
+
+.card-body-historias-section-2-inicio {
+  background-color: #151f41;
+  color: white;
+}
+
+.card-text-historias-section-2-inicio {
+  text-align: justify;
+}
+
+.link-card-historias-section-2-inicio {
+  all: unset;
+  background-color: white;
+  color: #151f41;
+  padding: 1.8vw 4.5vw;
+  border-radius: 1vw;
+}
+
+.link-card-historias-section-2-inicio:hover {
+  cursor: pointer;
+  background-color: #394c8a;
+  color: white;
+  transition: background-color 1s;
+}
+
+@media (min-width: 768px) {
+  .div-card-historias-section-2-inicio,
+  .card-header-historias-section-2-inicio,
+  .card-title-historias-section-2-inicio,
+  .card-text-historias-section-2-inicio {
+    font-size: 2vw;
+  }
+
+  .div-card-section-2-inicio {
+    padding: 0vw 15vw;
+  }
+
+  .p-historia-section-2-inicio {
+    padding-bottom: 0.5vw;
+  }
+
+  .link-card-historias-section-2-inicio {
+    padding: 1.1vw 4vw;
+    border-radius: 0.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .div-card-historias-section-2-inicio,
+  .card-header-historias-section-2-inicio,
+  .card-title-historias-section-2-inicio,
+  .card-text-historias-section-2-inicio {
+    font-size: 0.7vw;
+  }
+
+  .div-card-section-2-inicio {
+    padding: 0vw;
+  }
+
+  .p-historia-section-2-inicio {
+    padding-bottom: 0.5vw;
+  }
+
+  .link-card-historias-section-2-inicio {
+    padding: 0.5vw 1vw;
+    border-radius: 0.2vw;
+  }
+
+  .div-card-historias-section-2-inicio:hover {
+    transform: scale(1.02);
+    transition: transform 1s;
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.315);
+  }
+}

@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+.row-footer {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.div-logo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6vw;
+  padding-top: 2vw;
+}
+
+.img-footer {
+  width: 20%;
+}
+
+.hr-footer {
+  opacity: 1;
+  border: 0.1vw solid #151f41;
+  width: 12vw;
+}
+
+.div-text-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.3vw;
+  font-family: "JetBrains";
+}
+
+.article-redes-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  font-size: 8vw;
+}
+
+.icon-footer {
+  color: #151f41;
+}
+
+.section-2-footer {
+  text-align: center;
+  background-color: #151f41;
+  color: white;
+  padding: 3vw;
+}
+
+.section-2-footer p {
+  margin-bottom: 0vw;
+}
+
+.article-redes-footer > div :hover {
+  color: #394c8a;
+  transform: scale(1.01);
+  transition: color 1s;
+}
+
+@media (min-width: 1024px) {
+  .row-footer {
+    gap: 45vw;
+    padding-bottom: 1vw;
+  }
+
+  .img-footer {
+    width: 10%;
+  }
+
+  .hr-footer {
+    width: 6vw;
+  }
+
+  .article-redes-footer {
+    gap: 0.5vw;
+    font-size: 3.5vw;
+  }
+
+  .section-2-footer {
+    padding: 1vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .article-redes-footer {
+    font-size: 2.5vw;
+  }
+
+  .section-2-footer {
+    padding: 0.5vw;
+  }
+}

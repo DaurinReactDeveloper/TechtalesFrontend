@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "JetBrains";
+  src: url("/src//assets/font/JetBrainsMono-Regular.ttf");
+}
+
+
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.accordion-button {
+  background-color: #151f41;
+  color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.button-completed-accordion,
+.button-delete-accordion {
+  border: none;
+  border-radius: 1vw;
+  padding: 1vw 3vw;
+}
+
+.button-completed-accordion {
+  color: white;
+  background-color: #394c8a;
+}
+
+.button-completed-accordion:hover {
+  transform: scale(1.03);
+  background-color: #115321;
+  transition: background-color 1s, transform 1s;
+}
+
+.alert-div-message-error-challenges,
+.alert-div-message-success-challenges {
+  text-align: center;
+  color: white;
+  margin-bottom: 0vw;
+  font-family: "JetBrains";
+}
+
+.alert-div-message-success-challenges {
+  background-color: #115321;
+}
+
+.alert-div-message-error-challenges {
+  background-color: brown;
+}
+
+.div-accordion-challengescompleted {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 5vw;
+}
+
+.div-button-delete-accordion {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.button-delete-accordion {
+  all: unset;
+  color: brown;
+}
+
+.button-delete-accordion:hover {
+  color: #394c8a;
+  transform: scale(1.2);
+  transition: color 1s, transform 1s;
+}
+
+@media (min-width: 768px) {
+  .button-completed-accordion,
+  .button-delete-accordion {
+    border-radius: 0.5vw;
+    padding: 0.5vw 2vw;
+  }
+
+  .div-accordion-challengescompleted {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .button-completed-accordion,
+  .button-delete-accordion {
+    border-radius: 0.2vw;
+    padding: 0.3vw 1vw;
+  }
+
+  .div-accordion-challengescompleted {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+  }
+}
+
+@media (min-width: 1444px) {
+  .div-accordion-challengescompleted {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "JetBrainsExtraLight";
+  src: url("/src//assets/font/JetBrainsMono-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "JetBrainsBold";
+  src: url("/src//assets/font/JetBrainsMono-ExtraBold.ttf");
+}
+
+.row-DescriptionsLayout {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.retosBackground {
+  background-color: #151f41;
+}
+
+.h1-title-DescriptionsLayout,
+.p-description-DescriptionsLayout {
+  color: white;
+}
+
+.historiaH1 {
+  color: #151f41;
+}
+
+.h1-title-DescriptionsLayout {
+  font-family: "JetBrainsBold";
+  text-align: center;
+}
+
+.p-description-DescriptionsLayout {
+  font-family: "JetBrainsExtraLight";
+  text-align: justify;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  line-height: 8vw;
+}
+
+.col-1-DescriptionsLayout {
+  padding-top: 5vw;
+}
+
+.col-2-DescriptionsLayout {
+  padding-top: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.img-col-2-DescriptionsLayout {
+  width: 80%;
+}
+
+.span-title-DescriptionsLayout {
+  background-color: white;
+  border-radius: 0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: #151f41;
+}
+
+.hr-DescriptionsLayout {
+  opacity: 0.5;
+  border: 0.1vw solid #151f41;
+}
+
+@media (min-width: 768px) {
+  .col-2-DescriptionsLayout {
+    display: none;
+  }
+
+  .p-description-DescriptionsLayout {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    line-height: 6vw;
+    padding-bottom: 1.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-2-DescriptionsLayout {
+    display: contents;
+  }
+
+  .row-DescriptionsLayout {
+    flex-direction: row;
+    padding-top: 3vw;
+    justify-content: space-evenly;
+  }
+
+  .row-historia {
+    flex-direction: row-reverse;
+  }
+
+  .p-description-DescriptionsLayout {
+    line-height: 3vw;
+  }
+
+  .col-1-DescriptionsLayout {
+    padding: 0vw;
+  }
+
+  .col-2-DescriptionsLayout {
+    padding: 0vw;
+  }
+
+  .img-col-2-DescriptionsLayout {
+    width: 40%;
+  }
+
+  .hr-DescriptionsLayout {
+    opacity: 1;
+    border: 0.1vw solid #151f41;
+  }
+}
+
+@media (min-width: 1440px) {
+  .row-DescriptionsLayout {
+    justify-content: center;
+  }
+
+  .p-description-DescriptionsLayout {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+}

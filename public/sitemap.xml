@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://techtalesdg.netlify.app/</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/challenges</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/stories</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/register</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/user</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/login</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/admin</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://techtalesdg.netlify.app/loginAdmin</loc>
+	<lastmod>2025-05-01T19:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
